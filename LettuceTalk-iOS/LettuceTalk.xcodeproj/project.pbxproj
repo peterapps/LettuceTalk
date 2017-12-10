@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02DBAE91FDD250200748186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DBAE81FDD250200748186 /* AppDelegate.swift */; };
+		D02DBAEB1FDD250200748186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DBAEA1FDD250200748186 /* ViewController.swift */; };
+		D02DBAEE1FDD250200748186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02DBAEC1FDD250200748186 /* Main.storyboard */; };
+		D02DBAF01FDD250200748186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02DBAEF1FDD250200748186 /* Assets.xcassets */; };
+		D02DBAF31FDD250200748186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02DBAF11FDD250200748186 /* LaunchScreen.storyboard */; };
+		D02DBAFE1FDD250200748186 /* LettuceTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DBAFD1FDD250200748186 /* LettuceTalkTests.swift */; };
+		D02DBB091FDD250200748186 /* LettuceTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DBB081FDD250200748186 /* LettuceTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D02DBAFA1FDD250200748186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02DBADD1FDD250200748186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D02DBAE41FDD250200748186;
+			remoteInfo = LettuceTalk;
+		};
+		D02DBB051FDD250200748186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02DBADD1FDD250200748186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D02DBAE41FDD250200748186;
+			remoteInfo = LettuceTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D02DBAE51FDD250200748186 /* LettuceTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LettuceTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02DBAE81FDD250200748186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D02DBAEA1FDD250200748186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D02DBAED1FDD250200748186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D02DBAEF1FDD250200748186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D02DBAF21FDD250200748186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D02DBAF41FDD250200748186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02DBAF91FDD250200748186 /* LettuceTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LettuceTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02DBAFD1FDD250200748186 /* LettuceTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettuceTalkTests.swift; sourceTree = "<group>"; };
+		D02DBAFF1FDD250200748186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02DBB041FDD250200748186 /* LettuceTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LettuceTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02DBB081FDD250200748186 /* LettuceTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettuceTalkUITests.swift; sourceTree = "<group>"; };
+		D02DBB0A1FDD250200748186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D02DBAE21FDD250200748186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02DBAF61FDD250200748186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02DBB011FDD250200748186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02DBADC1FDD250100748186 = {
+			isa = PBXGroup;
+			children = (
+				D02DBAE71FDD250200748186 /* LettuceTalk */,
+				D02DBAFC1FDD250200748186 /* LettuceTalkTests */,
+				D02DBB071FDD250200748186 /* LettuceTalkUITests */,
+				D02DBAE61FDD250200748186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D02DBAE61FDD250200748186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D02DBAE51FDD250200748186 /* LettuceTalk.app */,
+				D02DBAF91FDD250200748186 /* LettuceTalkTests.xctest */,
+				D02DBB041FDD250200748186 /* LettuceTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D02DBAE71FDD250200748186 /* LettuceTalk */ = {
+			isa = PBXGroup;
+			children = (
+				D02DBAE81FDD250200748186 /* AppDelegate.swift */,
+				D02DBAEA1FDD250200748186 /* ViewController.swift */,
+				D02DBAEC1FDD250200748186 /* Main.storyboard */,
+				D02DBAEF1FDD250200748186 /* Assets.xcassets */,
+				D02DBAF11FDD250200748186 /* LaunchScreen.storyboard */,
+				D02DBAF41FDD250200748186 /* Info.plist */,
+			);
+			path = LettuceTalk;
+			sourceTree = "<group>";
+		};
+		D02DBAFC1FDD250200748186 /* LettuceTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				D02DBAFD1FDD250200748186 /* LettuceTalkTests.swift */,
+				D02DBAFF1FDD250200748186 /* Info.plist */,
+			);
+			path = LettuceTalkTests;
+			sourceTree = "<group>";
+		};
+		D02DBB071FDD250200748186 /* LettuceTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D02DBB081FDD250200748186 /* LettuceTalkUITests.swift */,
+				D02DBB0A1FDD250200748186 /* Info.plist */,
+			);
+			path = LettuceTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D02DBAE41FDD250200748186 /* LettuceTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02DBB0D1FDD250200748186 /* Build configuration list for PBXNativeTarget "LettuceTalk" */;
+			buildPhases = (
+				D02DBAE11FDD250200748186 /* Sources */,
+				D02DBAE21FDD250200748186 /* Frameworks */,
+				D02DBAE31FDD250200748186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LettuceTalk;
+			productName = LettuceTalk;
+			productReference = D02DBAE51FDD250200748186 /* LettuceTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D02DBAF81FDD250200748186 /* LettuceTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02DBB101FDD250200748186 /* Build configuration list for PBXNativeTarget "LettuceTalkTests" */;
+			buildPhases = (
+				D02DBAF51FDD250200748186 /* Sources */,
+				D02DBAF61FDD250200748186 /* Frameworks */,
+				D02DBAF71FDD250200748186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02DBAFB1FDD250200748186 /* PBXTargetDependency */,
+			);
+			name = LettuceTalkTests;
+			productName = LettuceTalkTests;
+			productReference = D02DBAF91FDD250200748186 /* LettuceTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D02DBB031FDD250200748186 /* LettuceTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02DBB131FDD250200748186 /* Build configuration list for PBXNativeTarget "LettuceTalkUITests" */;
+			buildPhases = (
+				D02DBB001FDD250200748186 /* Sources */,
+				D02DBB011FDD250200748186 /* Frameworks */,
+				D02DBB021FDD250200748186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02DBB061FDD250200748186 /* PBXTargetDependency */,
+			);
+			name = LettuceTalkUITests;
+			productName = LettuceTalkUITests;
+			productReference = D02DBB041FDD250200748186 /* LettuceTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D02DBADD1FDD250200748186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Peter;
+				TargetAttributes = {
+					D02DBAE41FDD250200748186 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D02DBAF81FDD250200748186 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D02DBAE41FDD250200748186;
+					};
+					D02DBB031FDD250200748186 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D02DBAE41FDD250200748186;
+					};
+				};
+			};
+			buildConfigurationList = D02DBAE01FDD250200748186 /* Build configuration list for PBXProject "LettuceTalk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D02DBADC1FDD250100748186;
+			productRefGroup = D02DBAE61FDD250200748186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D02DBAE41FDD250200748186 /* LettuceTalk */,
+				D02DBAF81FDD250200748186 /* LettuceTalkTests */,
+				D02DBB031FDD250200748186 /* LettuceTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D02DBAE31FDD250200748186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02DBAF31FDD250200748186 /* LaunchScreen.storyboard in Resources */,
+				D02DBAF01FDD250200748186 /* Assets.xcassets in Resources */,
+				D02DBAEE1FDD250200748186 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02DBAF71FDD250200748186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02DBB021FDD250200748186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D02DBAE11FDD250200748186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02DBAEB1FDD250200748186 /* ViewController.swift in Sources */,
+				D02DBAE91FDD250200748186 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02DBAF51FDD250200748186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02DBAFE1FDD250200748186 /* LettuceTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02DBB001FDD250200748186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02DBB091FDD250200748186 /* LettuceTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D02DBAFB1FDD250200748186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D02DBAE41FDD250200748186 /* LettuceTalk */;
+			targetProxy = D02DBAFA1FDD250200748186 /* PBXContainerItemProxy */;
+		};
+		D02DBB061FDD250200748186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D02DBAE41FDD250200748186 /* LettuceTalk */;
+			targetProxy = D02DBB051FDD250200748186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D02DBAEC1FDD250200748186 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02DBAED1FDD250200748186 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D02DBAF11FDD250200748186 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02DBAF21FDD250200748186 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D02DBB0B1FDD250200748186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D02DBB0C1FDD250200748186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D02DBB0E1FDD250200748186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7SWXKRBB4;
+				INFOPLIST_FILE = LettuceTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.peterlinder.LettuceTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D02DBB0F1FDD250200748186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7SWXKRBB4;
+				INFOPLIST_FILE = LettuceTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.peterlinder.LettuceTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D02DBB111FDD250200748186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7SWXKRBB4;
+				INFOPLIST_FILE = LettuceTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.peterlinder.LettuceTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LettuceTalk.app/LettuceTalk";
+			};
+			name = Debug;
+		};
+		D02DBB121FDD250200748186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7SWXKRBB4;
+				INFOPLIST_FILE = LettuceTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.peterlinder.LettuceTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LettuceTalk.app/LettuceTalk";
+			};
+			name = Release;
+		};
+		D02DBB141FDD250200748186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7SWXKRBB4;
+				INFOPLIST_FILE = LettuceTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.peterlinder.LettuceTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LettuceTalk;
+			};
+			name = Debug;
+		};
+		D02DBB151FDD250200748186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7SWXKRBB4;
+				INFOPLIST_FILE = LettuceTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.peterlinder.LettuceTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LettuceTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D02DBAE01FDD250200748186 /* Build configuration list for PBXProject "LettuceTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02DBB0B1FDD250200748186 /* Debug */,
+				D02DBB0C1FDD250200748186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02DBB0D1FDD250200748186 /* Build configuration list for PBXNativeTarget "LettuceTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02DBB0E1FDD250200748186 /* Debug */,
+				D02DBB0F1FDD250200748186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02DBB101FDD250200748186 /* Build configuration list for PBXNativeTarget "LettuceTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02DBB111FDD250200748186 /* Debug */,
+				D02DBB121FDD250200748186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02DBB131FDD250200748186 /* Build configuration list for PBXNativeTarget "LettuceTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02DBB141FDD250200748186 /* Debug */,
+				D02DBB151FDD250200748186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D02DBADD1FDD250200748186 /* Project object */;
+}
