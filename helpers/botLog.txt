@@ -1,0 +1,11 @@
+./chatbot.py "peter" "Peter Linder" "how are you?" "Now we're all together!" "
+hi
+tell a joke
+who are you?
+roll a die
+how are you?
+tell me about [insert topic] and tell me more (after you ask about a topic)
+roll [number of sides of die]
+"\r\nSorry I can not anwser that question as robots like me do not have feelings.
+\r\nINSERT INTO messages VALUES(8, "Sorry I can not anwser that question as robots like me do not have feelings.
+", "1512883812", "BotRoccoli")

@@ -1,0 +1,148 @@
+body {
+	font-family: sans-serif;
+	background: #016d54;
+	color: white;
+}
+
+.header a {
+	text-decoration: none;
+}
+
+a {
+	color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.centered {
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.group {
+	width: 100%;
+	height: 110px;
+	overflow: hidden;
+	position: relative;
+}
+
+label {
+	position: absolute;
+	top: 36.66667px;
+	color: rgba(255, 255, 255, 0.5);
+	font: 400 36.66667px sans-serif;
+	cursor: text;
+	transition: .25s ease;
+}
+
+input:not(.send) {
+	display: block;
+	width: 100%;
+	padding-top: 36.66667px;
+	border: none;
+	border-radius: 0;
+	color: white;
+	background: none;
+	font-size: 36.66667px;
+	transition: .3s ease;
+}
+input:valid ~ label {
+	top: 0;
+	font: 700 22px sans-serif;
+	color: rgba(255, 255, 255, 0.5);
+}
+input:focus {
+	outline: none;
+}
+input:focus ~ label {
+	top: 0;
+	font: 700 22px sans-serif;
+	color: white;
+}
+input:focus ~ .bar:before {
+	transform: translateX(0);
+}
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px #016d54 inset;
+	-webkit-text-fill-color: white !important;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: rgba(255, 255, 255, 0.5);
+}
+input::-moz-placeholder { /* Firefox 19+ */
+	color: rgba(255, 255, 255, 0.5);
+}
+input:-ms-input-placeholder { /* IE 10+ */
+	color: rgba(255, 255, 255, 0.5);
+}
+input:-moz-placeholder { /* Firefox 18- */
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.bar {
+	background: rgba(255, 255, 255, 0.5);
+	content: '';
+	width: 550px;
+	height: 3.66667px;
+	transition: .3s ease;
+	position: relative;
+}
+.bar:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	background: white;
+	transform: translateX(-100%);
+}
+
+::selection {
+	background: rgba(33, 150, 243, 0.3);
+}
+
+.submit {
+	cursor: pointer;
+	padding: 5px;
+	background: rgba(255, 255, 255, 0.2);
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.error {
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#loginTable td {
+	vertical-align: top;
+	padding: 10px;
+}
+
+#loginTable td:first-child {
+	border-right: 1px solid white;
+}
+
+button, input[type=submit] {
+	cursor: pointer;
+	padding: 5px;
+	border: none;
+	border-radius: 0;
+	font-size: 22px;
+	background: rgba(255, 255, 255, 0.2);
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.logout {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
